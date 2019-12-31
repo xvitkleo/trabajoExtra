@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;    
+}
+
+/* GLOBALES */
+body{
+    width: 1024px;
+    height: 2000px;
+    margin: auto;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: solid 6px green;
+}
+
+h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+li{
+    list-style: none;
+}
+
+
+ul{    
+    display: flex;   
+}
+
+
+a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+}
+
+.flex{
+    display:flex;
+}
+
+/* HEADER */
+
+header{
+    padding: 35px;
+    background-color: black;
+    width: 100%;
+    height: 80px;  
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.a-padding{
+    padding-right: 31px;
+}
+
+
+a:hover{
+    display: inline;
+    padding-bottom: 6px;
+    border-bottom: solid green;    
+}
+
+/* MAIN */
+
+main{
+    padding: 35px;
+}
+
+main section{
+    margin-bottom: 80px;
+}
+
+/* SOBRE MI */
+
+.div2{
+    padding-left: 50px;
+}
+
+.div2 figure{
+    margin-right: 15px;
+    margin-top: 20px;    
+}
+
+.div2 img{
+    transition: transform .3s ease;
+}
+
+#fotoPerfil{
+    width: 216px;
+    height: 216px;
+    transition: transform .8s ease;
+}
+
+.div2 img:hover{
+    transform: scale(1.5)   
+}
+
+#fotoPerfil:hover{
+    transform: rotate(360deg);
+}
+
+/* PORTAFOLIO */
+
+.contenedor{
+    position: relative;
+    width: 305px;
+    height: 200px;
+    margin: 0 20px 20px 0;
+    border: solid 10px #f0f0f0;
+}
+
+.informacionHover{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    opacity: 0%;    
+    
+}
+.informacionHover div{
+    display: block;
+}
+
+.informacionHover h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.informacionHover p{
+    font-size: 15px;
+}
+
+.informacionHover h4{
+    border-radius: 20px;
+    background-color: purple;
+    display: inline;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.portafolio img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.contenedor:hover{
+    border-color: green;    
+}
+
+.informacionHover:hover{
+    opacity: 100%;
+}
+
+
+/* MIS HABILIDADES */
+
+.misHabilidades h3{
+    margin-right: 20px;
+}
+.barra{
+    width: 125px;
+    height: 18px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+}
+
+.barra2{
+    width: 389px;
+    height: 20px;
+    border-radius: 11px;
+    border: solid 1px #d5d5d5;
+    background-color: lightgray;
+}
+.barra2:hover{
+    background-color: #4c2358;
+}
+
+.misHabilidades span{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px 0;    
+} 
+
+/* CONTACTAME */
+
+.contactame h3{
+    margin-bottom: 5px;
+}
+
+.contactame input{
+    width: 305px;
+    height: 40px;
+    margin: 0 20px 20px 0;
+}
+
+.contactame textarea{
+    width: 632px;
+    height: 131px;
+    margin-bottom: 20px;
+}
+
+.contactame button{
+    width: 160px;
+    height: 44px;
+    border: solid 1px #d5d5d5;
+    background-color: #42704e;
+    font-size: 16px;
+    font-family: Arial;
+    color: white;
+}
+
+footer{
+    padding: 35px;
+    background-color: black;
+    width: 100%;
+    height: 70px;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    font-family: Arial;
+    font-size: 11px;
+    color: white;
+}
+
+.linea{
+    width: 2px;
+    height: 466px;
+    border: solid 1px #d5d5d5;
+}
+
+.info{
+    margin: 20px;
+}
+.info h3, h4{
+    margin-bottom: 20px;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus{
+    box-shadow: 0 0 20px -10px lightgreen;
+    border-color: lightgreen;
+    outline: none;
+}
+
+
+
+
+51:15
+
+
+
